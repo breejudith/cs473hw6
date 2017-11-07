@@ -12,7 +12,10 @@
   },
   "browserify": {
     "transform": [
-      ["babelify", {"presets": ["es2015"], "sourceMap": true}]
+      ["babelify", {
+        "presets": ["es2015"],
+        "sourceMap": true
+      }]
     ]
   },
   "author": "",
